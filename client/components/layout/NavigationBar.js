@@ -12,7 +12,7 @@ export default class NavigationBar extends React.Component {
 				<div className="nav-content">
 					<div>
 						<Link to={"/"}>
-							<img src={} alt="Logo"/>
+							{/*<img src={} alt="Logo"/>*/}
 						</Link>
 					</div>
 					<div className="nav-ul-wrapper">

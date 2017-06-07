@@ -33,7 +33,8 @@ module.exports = {
 				exclude: /node_modules/,
 				query: {
 					presets: ['es2015', 'react'],
-					plugins: ['transform-class-properties', 'transform-decorators-legacy', "transform-object-rest-spread"]
+					plugins: ['transform-class-properties', 'transform-decorators-legacy',
+						"transform-object-rest-spread", "babel-plugin-root-import"]
 				}
 			}, {
 				test: /\.scss?$/,

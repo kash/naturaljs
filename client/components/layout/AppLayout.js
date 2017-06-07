@@ -9,14 +9,17 @@ export default class App extends React.Component {
 
 	render() {
 		return (
-			<div className="home">
-				<div className="top-display">
+			<div className="app-layout">
+				<div className="app-navigation">
 					<div>
-
+						<ul>
+							<li><a href="/calculator">This is a test</a></li>
+							<li><a href="/calculator">This is a test</a></li>
+						</ul>
 					</div>
 				</div>
 				<main>
-
+					{this.props.children}
 				</main>
 			</div>
 		)

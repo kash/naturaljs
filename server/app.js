@@ -16,16 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}));
  * Setting up connection to local database
  * TODO: Set up connection to production db if URL matches
  */
-const connection = mysql.createConnection({
-	host: '127.0.0.1',
-	user: 'root',
-	password: 'root',
-	database: 'something'
-});
-connection.connect();
 
-// Settings global variables
-global.connection = connection;
 global.app = app;
 global.async = async;
 
